@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+h2{
+	font-size:140%
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+	background-color : snow;
+	margin:0;
+}
+
+
+.aide{
+	color : white;
+	display:grid;
+	grid-template-columns:35% auto;
+	text-align:center;
+	background-color : #395E66;
+	margin: 1em;
+}
+
+.aide .image{
+	width:100%;
+	height:auto;
+}
+
+.bbs{
+	display:grid;
+	grid-template-columns:auto 35%;
+	text-align:center;
+	background-color : #91b8aa;
+	margin: 1em;
+}
+
+.bbs .image{
+	width:100%;
+	height:auto;}
+
+.resp{
+	color : white;
+	display:grid;
+	grid-template-columns:35% auto;
+	text-align:center;
+	background-color : #395E66;
+	margin: 1em;
+}
+
+.resp .image{
+	width:100%;
+	height:auto;
+}
+
+.ami{
+	display:grid;
+	grid-template-columns:auto 35%;
+	text-align:center;
+	background-color : #91b8aa;
+	margin: 1em;
+}
+
+.ami .image{
+	width:100%;
+	height:auto;
+}

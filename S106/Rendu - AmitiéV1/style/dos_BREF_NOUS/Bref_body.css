@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	margin:0;
+	background-color:white;
+}
+#conteneur{
+	display: grid;
+	padding:1em;
+}
+#conteneur section:nth-child(even) {
+	background-color: #395E66;
+	color:white;
+	padding:10%;
+}
+#conteneur section:nth-child(odd) {
+	background-color: #91b8aa;
+	color:black;
+	padding:10%;
+}
+
+
+.cle{
+	display:grid;
+	grid-template-columns:52% 48%;
+	width:100%;
+}
+
+h1{
+	font-weight: bold;
+	margin:auto;
+	font-size:350%;
+	text-align: center;
+}
+#titre h1{
+	width:568px;
+	text-align: end;
+	margin-right:0;
+	
+}
+.cle p{
+	text-align:center;
+	font-size:200%;
+}

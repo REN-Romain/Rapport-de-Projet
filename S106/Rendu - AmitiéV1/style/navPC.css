@@ -1,0 +1,35 @@
+header{
+	display: block;
+	background:white;
+	margin: 0;
+	text-align:center;
+	padding: 7px;
+	
+}
+	
+#nav{
+	display:flex;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	border: 2px solid #395E66;
+	border-radius: 5px;
+	background-color: #f1ffe7;
+}
+
+#nav img{
+	height:100px;
+}
+
+#nav a{
+	color:black;
+	margin:auto;
+	text-decoration: none;
+	white-space:pre-line;
+	justify-content: center;
+	
+}
+
+#nav a:hover{
+	font-weight: 1000;
+
+}

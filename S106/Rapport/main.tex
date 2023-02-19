@@ -1,0 +1,104 @@
+\documentclass[12pt]{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage[a4paper,top=50pt,bottom=70pt,left=30pt,right=30pt]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[OT1]{fontenc}
+\usepackage[french]{babel}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{changepage}
+\usepackage[hidelinks]{hyperref}
+\usepackage{minted}
+
+\title{S104 Rapport Final}
+\author{Romain REN}
+\date{\today}
+\topmargin = -50pt
+\begin{document}
+
+    \pagestyle{fancy}
+    \fancyhf{}
+    \lhead{Projet S106}
+    \chead{Romain REN,  Jean COSTREL DE CORRAINVILLE}
+    \rhead{Rapport Final}
+    \fancyfoot[R]{Page \thepage/\pageref{LastPage}}
+    
+    \begin{titlepage}
+    \vbox{ }
+
+    \begin{center}
+        \includegraphics[width=1\textwidth]{logo-iutorsay.png}\\[4cm]
+        \textsc{\Large Projet COIN - Web et Communication}\\[0.7cm]
+
+        \noindent\makebox[\linewidth]{\rule{.7\paperwidth}{.6pt}}\\[0.7cm]
+        { \huge \bfseries S106}\\[0.25cm]
+        \noindent\makebox[\linewidth]{\rule{.7\paperwidth}{.6pt}}\\[0.7cm]
+        \large{2022 - 2023}\\[1.2cm]
+        \includegraphics[width=0.6\textwidth]{logo_transp.png}\\[4cm]
+        \vfill
+        \large
+        Romain REN, Jean COSTREL DE CORRAINVILLE
+
+        {\large 19 Janvier, 2023}
+    \end{center}
+    \end{titlepage}
+    
+    {\fontfamily{lmss}\selectfont
+    \begin{adjustwidth}{20pt}{20pt}
+    \tableofcontents
+    \newpage
+    \section{Introduction}
+    Nous, Romain REN et Jean COSTREL DE CORRAINVILLE vous présentons Amitié, ce document vise à vous expliquer notre démarche dans la création de notre site Amitié.\bigskip
+
+    Nos choix de couleurs, de polices et le logo que nous avons choisis y seront répertoriés.\bigskip
+    
+    Vous y trouverez les toutes les sources que nous avons utilisées pour produire ce travail.\bigskip
+    
+    Vous y trouverez aussi les raisons justifiant nos choix dans la réalisation de ce projet de longue haleine.\bigskip
+
+    \section{Choix artistiques}
+    Pour la police, nous avons décidé d’une police « Open Sans » sans-serif, que l’on a jugé plus esthétique.\bigskip
+
+    Le logo possède une police à part pour le faire ressortir du reste de la page.\bigskip
+    
+    Le logo a totalement été créé par nous-même.\bigskip
+    
+    Pour les différentes couleurs présentes sur le site, nous avons choisis des variantes de couleurs plutôt sombre après avoir fait une analyse de plusieurs sites populaires tel que Netflix et Prime Video.\bigskip
+    
+    Les références sont : \bigskip
+    
+    L’en-tête du site (le header) possède une couleur plus claire pour que le visiteur soit davantage attiré par le contenu de la page.\bigskip
+
+    \section{Ressources externes}
+    Voici les sources des images que nous avons réutilisées :\bigskip
+    
+    \url{https://fr.hotels.com/go/france/toulouse}\bigskip
+    
+    \url{https://www.pixtastock.com/search/similar/69318226} \bigskip
+    
+    \url{https://i.ytimg.com/vi/30PQMw7TU6M/maxresdefault.jpg} \linebreak
+    (modifiée pour qu’elle corresponde au format du site, image de base provenant de cette vidéo : 
+    https://www.youtube.com/watch?v=30PQMw7TU6M) \bigskip
+    
+    \url{http://lescargot.siteo.com/fr/} \linebreak 
+    \bigskip
+    Nous n’avons copié aucune partie de code provenant d’autres sites.
+
+    \section{Compte-rendu}
+    Concernant la validation W3C : \bigskip
+
+    En CSS, il ne reste aucune erreur sur tous les fichiers, ils sont propres et bien rangés dans leurs dossiers.\bigskip
+    
+    Cependant en HTML, il n’y a aucune erreur sauf une SEULE qui a été laissée intentionnellement.\bigskip
+    
+    Dans la page contacts.html on a mis : \bigskip
+    
+    \begin{minted}{html}
+        <a href ="contacts.html"><input type="submit" value="Envoyer"></a>
+    \end{minted}
+    
+    La ligne a pour but de rediriger vers la page ‘contacts.html’ (donc de rafraîchir la page) pour simuler un envoi de formulaire qui a bien été pris en compte et donc effacer le texte marqué dans le formulaire.
+    \end{adjustwidth}
+    }
+\end{document}
+\end{document}
