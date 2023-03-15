@@ -1,0 +1,47 @@
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{Header 1} % Left Header
+\chead{Header 2} % Center Header
+\rhead{Header 3} % Right Header
+\lfoot{} % Left Footer
+\cfoot{} % Center Footer 
+\rfoot{Page \thepage/\pageref{LastPage}} % Right Footer
+
+\begin{titlepage}
+\vbox{ }
+
+\begin{center}
+    \includegraphics[width=1\textwidth]{logo-iutorsay.png}\\[4cm]
+    \textsc{\Large Document}\\[0.7cm]
+
+    \noindent\makebox[\linewidth]{\rule{.7\paperwidth}{.6pt}}\\[0.7cm]
+    { \huge \bfseries Main Title}\\[0.25cm]
+    \noindent\makebox[\linewidth]{\rule{.7\paperwidth}{.6pt}}\\[0.7cm]
+    \large{2022 - 2023}\\[1.2cm]
+    \vfill
+    \large
+    Romain REN
+
+    \bigskip
+    {\large \today}
+\end{center}
+\end{titlepage}
+
+{\fontfamily{lmss}\selectfont
+\begin{adjustwidth}{20pt}{20pt}
+    \tableofcontents
+	\newpage
+    \section{Chapter 1} % Insert your text here
+    \subsection{Subchapter 1}
+    \lipsum[1]
+    \section{Chapter 2}
+    \lipsum[1-3]
+    \subsection{Image}
+    \includegraphics[width=0.85\textwidth]{svg.png}
+    
+    Generated with :
+    \url{https://haikei.app/}
+    \subsection{Useful Links}
+    Some useful links :
+    \url{https://www.overleaf.com/learn}
+\end{adjustwidth}}
